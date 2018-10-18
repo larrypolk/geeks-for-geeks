@@ -2,7 +2,7 @@
 
 ## Segregate 0s and 1s Solution
 
-[Segregate 0s and 1s](https://practice.geeksforgeeks.org/problems/segregate-0s-and-1s/0)
+[Segregate 0s and 1s on Geeks for Geeks](https://practice.geeksforgeeks.org/problems/segregate-0s-and-1s/0)
 
 You are given an array of 0s and 1s in random order. Modify the array to segregate 0s on left side and 1s on right side of the array.
 
