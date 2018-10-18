@@ -1,4 +1,7 @@
 def rotate(rotate_by, elements):
+    if rotate_by is 0 or rotate_by is len(elements):
+        return elements[:]
+
     return elements[rotate_by:] + elements[0:rotate_by]
 
 
