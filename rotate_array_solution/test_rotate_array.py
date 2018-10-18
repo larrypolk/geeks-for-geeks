@@ -1,7 +1,7 @@
 import unittest
 
 
-from rotate_array import rotate
+from rotate_array_solution.rotate_array import rotate
 
 
 class GetRotateArrayTests(unittest.TestCase):
