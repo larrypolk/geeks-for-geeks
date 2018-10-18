@@ -68,6 +68,20 @@ class GetRotateArrayTests(unittest.TestCase):
         self.assertTrue(len(actual) == len(expected))
         self.assertTrue(all([actual[i] == expected[i] for i in range(0, max_vals)]))
 
+    def test_edge_cases(self):
+        rotation = 0
+        values = range(1, 2)
+        expected = [1]
+        self.assertTrue(len(values) == 1)
+        self.assertEqual(rotate(0, values), expected)
+        self.assertEqual(rotate(1, values), expected)
+
+        rotation = 0
+        values = []
+        expected = []
+        self.assertTrue(len(values) == 0)
+        self.assertEqual(rotate(0, values), expected)
+
 
 if __name__ == '__main__':
     unittest.main()
